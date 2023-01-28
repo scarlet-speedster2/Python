@@ -1,0 +1,6 @@
+a = (1,2,[1,5])
+b = (1,2,[1,5])
+print(a==b)
+b[-1].append(15)
+print(a==b)
+print(b)
